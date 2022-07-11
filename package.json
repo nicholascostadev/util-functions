@@ -1,5 +1,5 @@
 {
-  "name": "util-functions",
+  "name": "@nicholascostadev/util-functions",
   "version": "1.0.0",
   "description": "Utility functions for your development",
   "main": "/dist/index.js",
