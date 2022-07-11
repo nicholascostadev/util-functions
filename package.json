@@ -2,9 +2,15 @@
   "name": "util-functions",
   "version": "1.0.0",
   "description": "Utility functions for your development",
-  "main": "./dist/index.js",
+  "main": "/dist/index.js",
+  "types": "/dist/index.d.ts",
+  "scripts": {
+    "dev": "nodemon --watch \"src//\" --exec \"ts-node src/sample.ts\" -e ts",
+    "build": "tsc --declaration"
+  },
   "repository": "https://github.com/nicholascostadev/util-functions.git",
-  "author": "nicholascostadev",
+  "author": "nicholascostadev <'nicholascostadev@gmail.com'>",
+  "homepage": "https://github.com/nicholascostadev/util-functions#readme",
   "license": "MIT",
   "private": false
 }
