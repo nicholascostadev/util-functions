@@ -1,0 +1,10 @@
+{
+  "name": "util-functions",
+  "version": "1.0.0",
+  "description": "Utility functions for your development",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/nicholascostadev/util-functions.git",
+  "author": "nicholascostadev",
+  "license": "MIT",
+  "private": false
+}
